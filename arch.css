@@ -129,30 +129,39 @@ footer p {
     font-size: 1rem;
     text-align: center;
 }
+@media screen and (max-width: 567px) {
+  header {
+    padding: 20px;
+  }
+  nav, .team, .fact-container, .sponsors-img {
+    flex-direction: column;
+    align-items: center;
+  }
+  nav ul {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  nav li {
+    margin: 10px 0;
+  }
+  .team-images-container {
+    grid-template-columns: 1fr;
+  }
+}
 @media screen and (min-width: 576px) and (max-width: 960px) {
   header {
-      padding: 50px;
+    padding: 50px;
   }
-
-  nav {
-      flex-direction: column;
-      align-items: flex-start;
+  nav, .team, .sponsors-img {
+    flex-direction: column;
   }
-
   nav ul {
-      flex-direction: column;
-      align-items: flex-start;
-      width: 100%;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
   }
-
   nav li {
-      margin: 10px 0;
-      width: 100%;
-      text-align: left;
-  }
-
-  nav a {
-      width: 100%;
-      padding: 10px 0;
+    margin: 10px 0;
   }
 }
