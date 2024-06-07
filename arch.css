@@ -128,7 +128,9 @@ margin-bottom: 50px;
 
 footer,
 footer p {
-  padding-bottom: 10px;
+    background-color: #0a0826;
+    color: white;
+    font-weight: 400;
     font-size: 1rem;
     text-align: center;
 }
