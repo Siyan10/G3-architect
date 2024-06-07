@@ -55,6 +55,7 @@ a {
   padding: 20px 50px;
   border-radius: 10px;
   margin-top: 10px;
+  cursor: pointer;
 }
 .banner img {
   width: 100%;
@@ -70,6 +71,7 @@ main {
   justify-content: center;
   align-items: center;
   margin-top: 100px;
+  margin-bottom: 100px;
 }
 .team-images-container {
   display: grid;
@@ -126,6 +128,7 @@ margin-bottom: 50px;
 
 footer,
 footer p {
+  padding: 20px 230px;
     font-size: 1rem;
     text-align: center;
 }
